@@ -1,9 +1,12 @@
 sudo: false
 language: go
 go:
-- 1.5
 - 1.6
+- 1.7
+- 1.8
+- 1.9
 - tip
+go_import_path: code.sajari.com/storage
 notifications:
   email:
     - infra@sajari.com
